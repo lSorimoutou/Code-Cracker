@@ -43,7 +43,6 @@ class codeCracker
      * @return string message translater
      */
     private function translate($msg, $arr_source, $arr_dest){
-        $pos_chr;
         $result = "";
         foreach ($msg as &$chr){
             if($chr === ' '){
