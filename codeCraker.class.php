@@ -1,11 +1,10 @@
 <?php
-use PHPUnit\Framework\TestCase;
 
 /**
  * codeCracker
  * Permet de chiffrer ou déchiffrer un message en fonction d'une clée
  */
-class codeCracker extends TestCase
+class codeCracker
 {
     private static $alphabet = "abcdefghijklmnopqrstuvwxyz";
     private $desc_key;

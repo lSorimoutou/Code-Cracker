@@ -4,7 +4,6 @@ include 'codeCraker.class.php';
 
 /**
  * Test
- * @group group
  */
 class Test extends TestCase
 {
